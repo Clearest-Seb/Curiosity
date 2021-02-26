@@ -3,18 +3,24 @@ body{
 }
 #form {
 	position: relative;
-	top: -1680px;
+	top: -2450px;
 	border: 1px solid black;
 	background: #303030;
 	border-radius: 10%
 
 }
+
+#textBg {
+	position: relative;
+	color: rgba();
+}
+
 #mainText {
 	position: relative;
-	top: -1680px;
+	top: -2450px;
 	font-size: 60px;
 	color: lightgray;
-	font-family: "Sans";
+	font-family: "Verdana";
 }
 #bg1 {
 	position: relative;
@@ -32,4 +38,31 @@ body{
 	height: 850px;
 	width: 1000px;
 	background-color: rgba(105,105,105,0.8);
+}
+#bg3 {
+	position: relative;
+	left: 410px;
+	top: -1680px;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	height: 850px;
+	width: 1000px;
+	background-color: rgba(85,85,85,0.8);
+}
+#seboQuote {
+	position: relative;
+	top: -2450px;
+	left: 1500px;
+	width: 50px;
+	height:20px;
+	font-size: 30px;
+	color: rgba(1,1,1,1)
+}
+#thorQuote {
+	position: relative;
+	top: -2550px;
+	left: 220px;
+	width: 50px;
+	height:20px;
+	font-size: 30px;
+	color: rgba(195,195,195,0.8)
 }
